@@ -1,0 +1,5 @@
+# Ignore all text files
+*.class
+out
+.idea
+*.iml
