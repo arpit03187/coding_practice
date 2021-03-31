@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeb77b9f-28e4-46a3-868b-3b1ea368b231" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindow/MaxSumSubArrayOfSizeK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/sliding_window/AverageOfSubarrayOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/AverageOfSubarrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/slidingWindow/LongestSubstringKDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/AverageOfSubarrayOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/slidingWindow/AverageOfSubarrayOfSizeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/MaxSumSubArrayOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/slidingWindow/MaxSumSubArrayOfSizeK.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="AverageOfSubarrayOfSizeK.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/slidingWindow/AverageOfSubarrayOfSizeK.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/slidingWindow/AverageOfSubarrayOfSizeK.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -26,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSumSubArrayOfSizeK.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/slidingWindow/MaxSumSubArrayOfSizeK.java">
+      <file leaf-file-name="MaxSumSubArrayOfSizeK.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/slidingWindow/MaxSumSubArrayOfSizeK.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubstringKDistinct.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/slidingWindow/LongestSubstringKDistinct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -55,6 +63,8 @@
         <option value="$PROJECT_DIR$/src/slidingWindow/AverageOfSubarrayOfSizeK.java" />
         <option value="$PROJECT_DIR$/src/patterns/slidingWindow/MaxSumSubArrayOfSizeK.java" />
         <option value="$PROJECT_DIR$/src/slidingWindow/MaxSumSubArrayOfSizeK.java" />
+        <option value="$PROJECT_DIR$/src/slidingWindow/LongestSubstringKDistinct.java" />
+        <option value="$PROJECT_DIR$/src/patterns/slidingWindow/LongestSubstringKDistinct.java" />
       </list>
     </option>
   </component>
@@ -130,23 +140,23 @@
   </component>
   <component name="RunManager" selected="Application.MaxSumSubArrayOfSizeK">
     <configuration name="AverageOfSubarrayOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.slidingWindow.AverageOfSubarrayOfSizeK" />
+      <option name="MAIN_CLASS_NAME" value="patterns.slidingWindow.slidingwindow.AverageOfSubarrayOfSizeK" />
       <module name="coding_practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.slidingWindow.*" />
+          <option name="PATTERN" value="patterns.slidingWindow.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="MaxSumSubArrayOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.MaxSumSubArrayOfSizeK" />
+      <option name="MAIN_CLASS_NAME" value="patterns.slidingWindow.slidingwindow.MaxSumSubArrayOfSizeK" />
       <module name="coding_practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.*" />
+          <option name="PATTERN" value="patterns.slidingWindow.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,7 +228,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="818" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -228,12 +237,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4125874" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4125874" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -253,17 +262,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/slidingWindow/AverageOfSubarrayOfSizeK.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/slidingWindow/AverageOfSubarrayOfSizeK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/slidingWindow/MaxSumSubArrayOfSizeK.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/slidingWindow/MaxSumSubArrayOfSizeK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/slidingWindow/LongestSubstringKDistinct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>

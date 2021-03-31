@@ -1,4 +1,4 @@
-package slidingWindow;
+package patterns.slidingWindow;
 
 /**
  * runtime complexity O(n)

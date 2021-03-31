@@ -1,4 +1,4 @@
-package slidingWindow;
+package patterns.slidingWindow;
 
 /**
  * Sliding window with avg of sub array of size k
