@@ -1,4 +1,4 @@
-package arrays.sliding_window;
+package slidingWindow;
 
 /**
  * Sliding window with avg of sub array of size k
